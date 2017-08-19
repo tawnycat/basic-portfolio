@@ -51,6 +51,18 @@ h3 {
 	margin-left: 25px;	
 }
 
+h4 {
+	position: absolute;
+	bottom: 13%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 60px;
+	background-color: #4aaaa5;
+	width: 275px;
+	text-align: center;
+}
+
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -67,6 +79,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #4aaaa5;
+}
+
 li {
 	float: left;
 	padding-right: 20px;
@@ -77,13 +93,46 @@ li+li {
 	border-left: 1px solid #cccccc;
 }
 
-.maincontent {
-	width: 650px;
-	border: 1px solid #dddddd;
-	float: left;
-	margin-left: 155px;
-	margin-top: 40px;
-	background-color: #ffffff;
+form {
+	margin-left: 25px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+input {
+	margin-bottom: 20px;
+	margin-top: 5px;
+	width: 585px;
+	line-height: 2;
+	color: #777777;
+	padding-left: 10px;
+	outline: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+textarea {
+	height: 200px;
+	width: 585px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	line-height: 2;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	outline: none;
+	font-weight: lighter;
+}
+
+input[type="submit"] {
+	background-color: #4aaaa5;
+	border: none;
+	width: 115px;
+	height: 40px;
+	color: #ffffff;
+	font-size: 18px;
 }
 
 aside {
@@ -112,6 +161,15 @@ footer {
 	line-height: 90px;
 }
 
+.maincontent {
+	width: 650px;
+	border: 1px solid #dddddd;
+	float: left;
+	margin-left: 155px;
+	margin-top: 40px;
+	background-color: #ffffff;
+}
+
 .hr1 {
 	margin-left: 25px;
 	margin-right: 25px;
@@ -130,20 +188,11 @@ footer {
     border-style: solid;
 }
 
-#aboutmepic {
-	float: left;
-	margin: 0px 25px 0px 25px;
-}
-
 .noborderlist {
 	border-left: none;
 	padding: 7px;
 	align-content:enter;
 	margin-bottom: 25px;
-}
-
-#marginlist {
-	margin-left: 17px;
 }
 
 .push {
@@ -156,14 +205,14 @@ footer {
 	position: relative;
 }
 
-h4 {
-	position: absolute;
-	bottom: 13%;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #ffffff;
-	font-size: 22px;
-	line-height: 60px;
-	background-color: #4aaaa5;
-	width: 275px;
-	text-align: center;
+#aboutmepic {
+	float: left;
+	margin: 0px 25px 0px 25px;
 }
+
+#marginlist {
+	margin-left: 17px;
+}
+
+
+
