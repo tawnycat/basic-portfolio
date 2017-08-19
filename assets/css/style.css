@@ -6,9 +6,10 @@ header {
 
 nav {
 	float: right;
-	margin-right: 155px;
 	padding-top: 36px;
 	padding-bottom: 36px;
+	position: fixed;
+	left: 835px;
 }
 
 h1 {
@@ -34,6 +35,16 @@ h2 {
 	clear: both;
 	margin-top: 35px;
 	margin-bottom: 35px;
+	margin-left: 25px;	
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 22px;
+	font-weight: bolder;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	margin-left: 25px;	
 }
 
@@ -75,11 +86,17 @@ aside {
 	width: 270px;
 	border: 1px solid #dddddd;
 	float: left;
-	margin-left: 32px;
+	margin-left: 34px;
 	margin-top: 40px;
 }
 
-hr {
+footer {
+	float: bottom;
+	clear: both;
+	overflow: auto;
+}
+
+.hr1 {
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-bottom: 30px;
@@ -88,7 +105,27 @@ hr {
     border-style: solid;
 }
 
+.hr2 {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+    border-width: 1px;
+    color: #dddddd;
+    border-style: solid;
+}
+
 #aboutmepic {
 	float: left;
 	margin: 0px 25px 0px 25px;
+}
+
+.noborderlist {
+	border-left: none;
+	padding: 7px;
+	align-content: center;
+	margin-bottom: 25px;
+}
+
+#marginlist {
+	margin-left: 17px;
 }
